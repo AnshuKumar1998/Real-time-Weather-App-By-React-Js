@@ -20,7 +20,7 @@ export default function search(props) {
                     <input type="text" id="lat" name="lat" onChange={ props.change } value={ props.lat } placeholder="Latitude" />
                     <label htmlFor="lon" name="lon" >Lon:</label>
                     <input type="text" id="lon" name="lon" onChange={ props.change } value={ props.lon } placeholder="Longitude" />
-                    <button type="submit">Search</button>
+                    <button onClick={props.search}>Search</button>
                     
                 </div>
             </div>
